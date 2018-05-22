@@ -1,0 +1,1 @@
+CREATE TABLE sefab_answer (id INT NOT NULL AUTO_INCREMENT, question_id INT NOT NULL , user_id INT NOT NULL , values TEXT NOT NULL , timestamp DATETIME NOT NULL ,  PRIMARY KEY (id)) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;

@@ -1,0 +1,72 @@
+/*
+Theme Name: Twenty Seventeen Sefab Child
+Theme URI: http://example.com/twenty-seventeen-child/
+Description: Twenty Seventeen Sefab Child Theme
+Author: MSD
+Author URI: http://www.mllrdev.com/
+Template: twentyseventeen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-seventeen-child
+*/
+
+.hidden {
+    display: none !important;
+}
+
+.half-container {
+    display: inline-block;
+    width: 50%;
+}
+
+button.color-primary {
+    background: #4D9CB4;
+    color: #fff;
+}
+
+button.color-white {
+    background: #fff;
+    color: #000;
+}
+
+p.color-white {
+    color: #fff;
+}
+
+p.error {
+    color: #db1528;
+}
+
+p.center {
+    text-align: center;
+}
+
+label.color-white {
+    color: #fff;
+}
+
+.meta-box-sortables select {
+    display: none !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: Forza;
+    src: url(assets/fonts/Forza/Forza-Medium.ttf);
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.entry-title {
+    color: rgb(5, 5, 5);
+    font-family: 'Forza', sans-serif;
+}

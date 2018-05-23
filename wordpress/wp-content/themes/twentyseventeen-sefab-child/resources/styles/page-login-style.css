@@ -1,0 +1,66 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a8a8a8;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #a8a8a8;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #a8a8a8;
+}
+
+body {
+    background: url(../../assets/images/splash_bg.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.site-content-contain{
+    background-color: transparent;
+}
+
+.login-wrap {
+    max-width: 800px;
+    margin-top: 5%;
+}
+
+.site-main {
+    background: rgba(6, 53, 67, 0.80);
+}
+
+.site-main img.banner {
+    width: 100%;
+}
+
+.login-form-container {
+    padding: 20px;
+}
+
+.login-container {
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.login-container button{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.login-container input[type=text] {
+    border: 0px;
+    margin: 5px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-check {
+    margin-top: 10px;
+    padding-left: 35px;
+}
